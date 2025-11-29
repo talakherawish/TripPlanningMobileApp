@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/tripImageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:contentDescription="Trip image"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tripNameDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Destination"
+            android:textColor="#2C3E50"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tripOriginDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="From: Origin"
+            android:textColor="#7F8C8D"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tripPriceDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="$0"
+            android:textColor="#27AE60"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tripDateDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Departure: Jan 01, 2025"
+            android:textColor="#2C3E50"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tripLuggageDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Luggage: 0 bags"
+            android:textColor="#2C3E50"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tripTypeDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Type: Cultural"
+            android:textColor="#2C3E50"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tripAvailabilityDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Available"
+            android:textColor="#27AE60"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tripPremiumDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Standard Trip"
+            android:textColor="#2C3E50"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tripNotificationsDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Notifications: OFF"
+            android:textColor="#2C3E50"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#2196F3"
+                android:text="Edit"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F44336"
+                android:text="Delete"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
