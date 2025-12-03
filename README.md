@@ -1,6 +1,7 @@
 # TripPlanningMobileApp
 
 An Android application for planning and managing personal trips. The app allows users to create, edit, delete, and store trip entries locally through a clean and simple interface. Built with Java and Android Studio, it uses RecyclerView, lifecycle-aware components, and SharedPreferences to ensure smooth performance and persistent storage.
+Running Projject Demo: https://drive.google.com/file/d/12yE4Kuwb6qV74TWaWHS13OVSyNwy8W5Z/view?usp=sharing
 
 ## Features
 
